@@ -1,0 +1,10 @@
+author = whis & compa
+version = 1.0.0
+displayName = Player & Enemy Stats Multipliers
+homepage =
+hideCode = false
+hideResources = false
+includeSource = true
+includePDB = true
+languageVersion = 6
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*
