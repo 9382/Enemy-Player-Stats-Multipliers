@@ -2,6 +2,7 @@
 a Terraria Tmodloader mod that allows to configure global multipliers
 
 Visit the home page for more info on how to set up your configuration file!
+
 Update 1.0.7: Added GlobalItemManaUsageMultiplier. Because Player Mana has a strange cap and can't go any higher than 400 it seems. (also for example with 20 mana & 10x multiplier the game won't allow you to go past 120 mana which correspond to a 6x multiplier)
 
 Update 1.0.6: Fix for Crit Chance Multiplier. forgot some damage type (thrown)
