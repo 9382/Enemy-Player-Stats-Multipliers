@@ -14,6 +14,7 @@ namespace WhisStatsConfig.Items
 		{
 			item.defense = (int)(item.defense * GlobalConfig.GlobalArmorDefenseMultiplier);
 			item.damage = (int)(item.damage * GlobalConfig.GlobalItemDamageMultiplier);
+			item.mana = (int)(item.mana * GlobalConfig.GlobalItemManaUsageMultiplier);
 		}
 	}
 }

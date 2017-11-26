@@ -1,6 +1,10 @@
 Allows you to change global enemy/player stats.
 
 Visit the home page for more info on how to set up your configuration file!
+Update 1.0.7: Added GlobalItemManaUsageMultiplier. Because Player Mana has a strange cap and can't go any higher than 400 it seems. (also for example with 20 mana & 10x multiplier the game won't allow you to go past 120 mana which correspond to a 6x multiplier)
+
+Update 1.0.6: Fix for Crit Chance Multiplier. forgot some damage type (thrown)
+
 Update 1.0.5: Added "GlobalPlayerDefenseMultiplier" which this time will multiply ALL player defense globally including, accessories, prefixes, buffs ....
 
 Update 1.0.4: Added Player Crit Chance multipliers. haven't tested over 100% crit chance if you go crazy on them. Keep in mind this makes more damage & also way more knockback when a crit happens (default game behavior, it's just a reminder for balancing).

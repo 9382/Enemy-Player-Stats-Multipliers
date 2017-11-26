@@ -18,6 +18,7 @@ namespace WhisStatsConfig.Players
 			player.rangedCrit = (int) (player.rangedCrit * GlobalConfig.GlobalPlayerCritChanceMultiplier);
 			player.magicCrit = (int) (player.magicCrit * GlobalConfig.GlobalPlayerCritChanceMultiplier);
 			player.meleeCrit = (int) (player.meleeCrit * GlobalConfig.GlobalPlayerCritChanceMultiplier);
+			player.thrownCrit = (int) (player.thrownCrit * GlobalConfig.GlobalPlayerCritChanceMultiplier);
 		}
 		public override void UpdateLifeRegen()
 		{

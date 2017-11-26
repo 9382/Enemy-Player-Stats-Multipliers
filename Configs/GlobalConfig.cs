@@ -24,6 +24,7 @@ namespace WhisStatsConfig
 		//public static float GlobalEnemyMoveSpeedMultiplier = 1.0f;
 		public static float GlobalArmorDefenseMultiplier = 1.0f; //changed to "armordefense"
 		public static float GlobalItemDamageMultiplier = 1.0f;
+		public static float GlobalItemManaUsageMultiplier = 1.0f;
 		public static float GlobalPlayerHealthMultiplier = 1.0f;
 		public static float GlobalPlayerHealthRegenMultiplier = 1.0f;
 		public static float GlobalPlayerManaMultiplier = 1.0f;
@@ -101,6 +102,7 @@ namespace WhisStatsConfig
 					Configuration.Get("GlobalArmorDefenseMultiplier", ref GlobalArmorDefenseMultiplier); // new value
 				}
 				Configuration.Get("GlobalItemDamageMultiplier", ref GlobalItemDamageMultiplier);
+				Configuration.Get("GlobalItemManaUsageMultiplier", ref GlobalItemManaUsageMultiplier);
 				Configuration.Get("GlobalPlayerHealthMultiplier", ref GlobalPlayerHealthMultiplier);
 				Configuration.Get("GlobalPlayerHealthRegenMultiplier", ref GlobalPlayerHealthRegenMultiplier);
 				Configuration.Get("GlobalPlayerManaMultiplier", ref GlobalPlayerManaMultiplier);
@@ -161,6 +163,7 @@ namespace WhisStatsConfig
 				//Configuration.Put("GlobalEnemyMoveSpeedMultiplier", GlobalEnemyMoveSpeedMultiplier);
 				Configuration.Put("GlobalArmorDefenseMultiplier", GlobalArmorDefenseMultiplier);
 				Configuration.Put("GlobalItemDamageMultiplier", GlobalItemDamageMultiplier);
+				Configuration.Put("GlobalItemManaUsageMultiplier", GlobalItemManaUsageMultiplier);
 				Configuration.Put("GlobalPlayerHealthMultiplier", GlobalPlayerHealthMultiplier);
 				Configuration.Put("GlobalPlayerHealthRegenMultiplier", GlobalPlayerHealthRegenMultiplier);
 				Configuration.Put("GlobalPlayerManaMultiplier", GlobalPlayerManaMultiplier);
