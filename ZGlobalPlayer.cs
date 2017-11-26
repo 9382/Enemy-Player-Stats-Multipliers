@@ -10,7 +10,7 @@ namespace WhisStatsConfig.Players
 {
 	public class ZGlobalStats : ModPlayer //The z is for consistency in naming
 	{
-		public override void PostUpdateBuffs()
+		public override void PostUpdateEquips()
 		{
 			player.statLifeMax2 = (int) (player.statLifeMax2 * GlobalConfig.GlobalPlayerHealthMultiplier);
 			player.statManaMax2 = (int) (player.statManaMax2 * GlobalConfig.GlobalPlayerManaMultiplier);
