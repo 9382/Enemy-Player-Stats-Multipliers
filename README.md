@@ -3,6 +3,8 @@ a Terraria Tmodloader mod that allows to configure global multipliers
 
 Visit the home page for more info on how to set up your configuration file!
 
+Update 1.0.1: Fixed items not being considered for player changes, they are now multiplied correctly.
+
 Update 1.0.0: RELEASE. also concatenated the multiple config files in one.
 
 Update 0.9.5: Thanks to JopoJelly, added player health & mana modifiers.
