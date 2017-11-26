@@ -1,6 +1,13 @@
 Allows you to change global enemy/player stats.
 
 Visit the home page for more info on how to set up your configuration file!
+Update 1.0.5: Added "GlobalPlayerDefenseMultiplier" which this time will multiply ALL player defense globally including, accessories, prefixes, buffs ....
+
+Update 1.0.4: Added Player Crit Chance multipliers. haven't tested over 100% crit chance if you go crazy on them. Keep in mind this makes more damage & also way more knockback when a crit happens (default game behavior, it's just a reminder for balancing).
+
+Update 1.0.3: Fixed items Mana usage being changed due to left over testing code. sorry folks
+
+Update 1.0.2: Renamed "GlobalItemDefenseMultiplier" to "GlobalArmorDefenseMultiplier", your values will be transferred from the old to the new value. reason being that all my testing shows this value only ever affected Armor base defense, prefixes bonus defense never got multiplied. so this new name reflect that.
 
 Update 1.0.1: Fixed items not being considered for player changes, they are now multiplied correctly.
 

@@ -12,7 +12,7 @@ namespace WhisStatsConfig.Items
 	{
 		public override void SetDefaults(Item item)
 		{
-			item.defense = (int)(item.defense * GlobalConfig.GlobalItemDefenseMultiplier);
+			item.defense = (int)(item.defense * GlobalConfig.GlobalArmorDefenseMultiplier);
 			item.damage = (int)(item.damage * GlobalConfig.GlobalItemDamageMultiplier);
 		}
 	}
