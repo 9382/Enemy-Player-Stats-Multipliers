@@ -30,6 +30,7 @@ namespace WhisStatsConfig
 		public static float GlobalPlayerManaMultiplier = 1.0f;
 		public static float GlobalPlayerDefenseMultiplier = 1.0f;
 		public static float GlobalPlayerCritChanceMultiplier = 1.0f;
+		public static float GlobalPlayerFlightTimeMultiplier = 1.0f;
 
 		public static float GlobalBossHealthMultiplier = 1.0f;
 		public static float GlobalBossDamageMultiplier = 1.0f;
@@ -108,6 +109,7 @@ namespace WhisStatsConfig
 				Configuration.Get("GlobalPlayerManaMultiplier", ref GlobalPlayerManaMultiplier);
 				Configuration.Get("GlobalPlayerDefenseMultiplier", ref GlobalPlayerDefenseMultiplier);
 				Configuration.Get("GlobalPlayerCritChanceMultiplier", ref GlobalPlayerCritChanceMultiplier);
+				Configuration.Get("GlobalPlayerFlightTimeMultiplier", ref GlobalPlayerFlightTimeMultiplier);
 
 				Configuration.Get("GlobalBossHealthMultiplier", ref GlobalBossHealthMultiplier);
 				Configuration.Get("GlobalBossDamageMultiplier", ref GlobalBossDamageMultiplier);
@@ -168,7 +170,7 @@ namespace WhisStatsConfig
 				Configuration.Put("GlobalPlayerHealthRegenMultiplier", GlobalPlayerHealthRegenMultiplier);
 				Configuration.Put("GlobalPlayerManaMultiplier", GlobalPlayerManaMultiplier);
 				Configuration.Put("GlobalPlayerDefenseMultiplier", GlobalPlayerDefenseMultiplier);
-				Configuration.Put("GlobalPlayerCritChanceMultiplier", GlobalPlayerCritChanceMultiplier);
+				Configuration.Put("GlobalPlayerFlightTimeMultiplier", GlobalPlayerFlightTimeMultiplier);
 
 				Configuration.Put("GlobalBossHealthMultiplier", GlobalBossHealthMultiplier);
 				Configuration.Put("GlobalBossDamageMultiplier", GlobalBossDamageMultiplier);
