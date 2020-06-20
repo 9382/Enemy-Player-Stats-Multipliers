@@ -1,5 +1,5 @@
 author = whis & compa
-version = 1.0.7
+version = 1.0.8
 displayName = Player & Enemy Stats Multipliers
 homepage = https://forums.terraria.org/index.php?threads/player-enemy-stats-multipliers.63547/
 hideCode = false
